@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mi_App</string>
+    <string name="bienvenidos">Bienvenidos a CLIDS!</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="recordarme">Recordarme</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="bot_n_de_google">Botón de Google</string>
+    <string name="productos">Productos</string>
+    <string name="clientes">Clilentes</string>
+    <string name="btn_search">btn_search</string>
+    <string name="ver_m_s">Ver más</string>
+    <string name="agregar_al_carrito">Agregar al carrito</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="ver_carrito">Ver Carrito</string>
+</resources>
