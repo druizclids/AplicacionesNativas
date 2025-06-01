@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,19 +12,26 @@
         android:layout_height="match_parent">
 
         <Button
+            android:id="@+id/btnCrearProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Crear Producto"
+            tools:ignore="MissingConstraints" />
+
+        <Button
             android:id="@+id/btnVerCarrito"
-            android:text="@string/ver_carrito"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"
+            android:text="@string/ver_carrito" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvProductos"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_width="340dp"
+            android:layout_height="499dp" />
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
